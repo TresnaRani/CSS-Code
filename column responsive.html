@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Column Responsive </title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .row{
+            display:  flex;
+            flex-wrap: wrap;
+            
+        }
+        .column{
+            flex: 25%;
+            padding: 10px;
+        }
+        @media screen and (max-width: 992px) {
+           .column{
+            flex: 50%;
+           
+           } 
+        }
+        @media screen and (max-width: 600px) {
+           .row{
+          flex-direction: column;
+           
+           } 
+        }
+        /*.column{
+          
+          float: left;
+            width: 25%;
+            padding: 10px;
+        }
+        @media screen and (max-width: 992px) {
+           .column{
+            float: left;
+            width: 50%;
+           } 
+        }
+        @media screen and (max-width: 600px) {
+           .column{
+       
+            width: 100%;
+           } 
+        }*/
+        </style>
+</head>
+<body>
+    <div class="row">
+        <div class="column">
+          <h1>HTML</h1>  
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab veniam maxime, ut nulla ipsum nihil ullam asperiores, quos culpa voluptates facilis nam itaque reprehenderit. Dolorum, explicabo? Facere magni, beatae aspernatur architecto sunt, error nesciunt modi cupiditate velit non cum corrupti deserunt incidunt aut quidem voluptas sed impedit harum assumenda nemo, libero consequuntur accusantium quas. Aut consequatur repellat repudiandae expedita amet pariatur architecto, sapiente atque nemo! Deleniti, asperiores? Adipisci, distinctio provident?
+        </div>
+        <div class="column">
+            <h1>CSS</h1>  
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab veniam maxime, ut nulla ipsum nihil ullam asperiores, quos culpa voluptates facilis nam itaque reprehenderit. Dolorum, explicabo? Facere magni, beatae aspernatur architecto sunt, error nesciunt modi cupiditate velit non cum corrupti deserunt incidunt aut quidem voluptas sed impedit harum assumenda nemo, libero consequuntur accusantium quas. Aut consequatur repellat repudiandae expedita amet pariatur architecto, sapiente atque nemo! Deleniti, asperiores? Adipisci, distinctio provident?
+          </div>
+          <div class="column">
+            <h1>Bootstrap</h1>  
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab veniam maxime, ut nulla ipsum nihil ullam asperiores, quos culpa voluptates facilis nam itaque reprehenderit. Dolorum, explicabo? Facere magni, beatae aspernatur architecto sunt, error nesciunt modi cupiditate velit non cum corrupti deserunt incidunt aut quidem voluptas sed impedit harum assumenda nemo, libero consequuntur accusantium quas. Aut consequatur repellat repudiandae expedita amet pariatur architecto, sapiente atque nemo! Deleniti, asperiores? Adipisci, distinctio provident?
+          </div>
+          <div class="column">
+            <h1>PHP</h1>  
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab veniam maxime, ut nulla ipsum nihil ullam asperiores, quos culpa voluptates facilis nam itaque reprehenderit. Dolorum, explicabo? Facere magni, beatae aspernatur architecto sunt, error nesciunt modi cupiditate velit non cum corrupti deserunt incidunt aut quidem voluptas sed impedit harum assumenda nemo, libero consequuntur accusantium quas. Aut consequatur repellat repudiandae expedita amet pariatur architecto, sapiente atque nemo! Deleniti, asperiores? Adipisci, distinctio provident?
+          </div>
+
+                </div>
+</body>
+</html>
