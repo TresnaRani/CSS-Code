@@ -1,0 +1,28 @@
+<html>
+<head>
+	<title>Border</title>
+	<style>
+	
+		h1,h2,h3 {
+			border:dotted aqua 270px;
+		
+		}
+	
+	</style>
+</head>
+<body>
+
+
+	<h1>This is a border<h1>
+	<h2>This is a border<h2>
+
+	<h3>This is a border<h3>
+
+
+</body>
+
+
+
+
+
+</html>
