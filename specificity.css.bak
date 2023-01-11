@@ -1,0 +1,45 @@
+/* a=number of id */
+/* b= number of class,pseduo classes,attributes */
+/* c=number of elements,pseudo elements */
+
+/* a=0 b=1 c=0 ...>010   specificity greater than 001*/
+/* a=0 b=0 c=1 -->001 specificity less than 001*/
+
+/* a=0 b=0 c=1 -->001*/
+h1{
+	
+	
+	color:red;
+}
+h1{
+	
+	
+	color:blue;
+}
+h1{
+	
+	
+	color:green;
+}
+
+/* a=0 b=1 c=0 ...>010*/
+
+.title{
+	
+	color:grey;
+}
+/* a=0 b=1 c=1 ...>011*/
+h1.title{
+	
+	color:red;
+}
+/* a=1 b=0 c=0 ...>100*/
+#heading{
+	
+	color:hotpink;
+}
+/* a=1 b=0 c=1 ...>101*/
+ h1#heading{
+	
+	color:aqua;
+}
