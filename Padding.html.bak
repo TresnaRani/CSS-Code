@@ -1,0 +1,33 @@
+<html>
+<head>
+	<title>Padding Model</title>
+	<style>
+		.para{
+			background-color:yellow;
+			padding:20px;
+			width:400px;
+			font-size:20px;
+		}
+		
+		#section{
+			padding:10px;
+			font-size:20px;
+			width:400px;
+			background-color:blue;
+		}
+		body{
+			margin:0;
+			padding:0;
+		}
+		
+	</style>
+</head>
+<body>
+
+	<p class="para">Bangladesh is my country</p>
+	<div id="section">
+	<h1 >TMSS is my college</h1>
+	</div>
+
+</body>
+</html>

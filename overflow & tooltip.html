@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow & Tooltip</title>
+
+    <style>
+        div{
+            height: 300px;
+            width: 250px;
+             background-color: coral;
+             border: 2px solid green;
+             overflow: auto;
+          
+        }
+        .tooltip .tooltip-text{
+            
+          visibility: hidden;
+           width: 120px;
+           background-color: aquamarine;
+           color: blue;
+           padding: 10px;
+           border-radius: 5px;
+          
+           position:absolute;
+           left: 20px;
+           top: 30px;
+           z-index: 1;
+        }
+        .tooltip:hover .tooltip-text{
+            visibility: visible;
+
+        }
+
+
+        </style>
+</head>
+<body>
+
+    <a href="#" class="tooltip">
+        Facebook
+        <span class="tooltip-text">Facebook is a social media</span>
+        </a>
+        <br><br>
+    <div>
+
+
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae esse a nesciunt, veritatis, laudantium expedita odio iste voluptatum inventore commodi, delectus deserunt tempora necessitatibus labore ipsum. Fuga debitis, repellat dolores, ad beatae blanditiis molestiae labore maiores, ratione distinctio minus assumenda delectus eos illo quod ut aliquam ullam a quia quisquam ipsam expedita rem doloribus vero. Deserunt, molestiae. Quo rem, quae repellendus obcaecati quod voluptatum quasi, expedita ut omnis porro non, tempora doloremque ea aut sequi hic! Autem quas voluptates quisquam placeat hic facilis odit esse expedita quos? Aut, iste voluptates earum sed, fugiat inventore obcaecati repellendus libero quo repellat optio! ipsum dolor sit amet consectetur adipisicing elit. Eius, necessitatibus totam, ratione earum delectus velit minus ab nisi rem magnam id possimus ea quam facilis debitis eum iure dolorem deleniti.
+    </div>
+</body>
+</html>
