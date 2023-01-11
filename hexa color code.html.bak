@@ -1,0 +1,23 @@
+<html>
+<head>
+	<title>Color Code</title>
+	<style>
+			body{
+				background-color:#4B2B00;
+			}
+			h1{
+				color: #900C3E ;
+			}
+	</style>
+</head>
+<body>
+	
+		<h1>This is a color world<h1>
+
+
+</body>
+
+
+
+
+</html>

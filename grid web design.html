@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Web-design</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .header{
+            background-color: coral;
+            color: white;
+            padding: 1% 5%;
+            text-align: center;
+        }
+        .nav-menu{
+            padding: 1% 5%;
+            background-color: cadetblue;
+        }
+        .nav-menu a{
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+            padding: 10px;
+            display: block;
+
+        }
+        .main{
+            padding: 1% 5%;
+            background-color: turquoise;
+        }
+        .aside{
+            padding: 1% 5%;
+            background-color: cornflowerblue;
+            text-align: center;
+        }
+        .footer{
+           
+            color:black;
+            padding: 20px;
+            text-align: center;
+            font-size:20px;
+            background-color:pink;
+
+
+        }
+        /*for desktop*/
+        .col-1{width: 8.33%;}
+        .col-2{width: 16.66%;}
+        .col-3{width: 25%;}
+        .col-4{width: 33.33%;}
+        .col-5{width: 41.66%;}
+        .col-6{width: 50%;}
+        .col-7{width: 58.33%;}
+        .col-8{width: 66.66%;}
+        .col-9{width: 75%;}
+        .col-10{width: 83.33%;}
+        .col-11{width: 91.66%;}
+        .col-12{width: 100%;}
+      
+
+        [class*="col-"]{
+            float: left;
+            padding: 10px;
+        }
+        .row::after{
+            content: '';
+            clear: both;
+            display: table;
+        }
+        @media screen  and (max-width:600px){
+            [class*="col-"]{
+                width: 100%;
+            }
+         
+            
+        }
+
+
+
+
+        </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Tresna Rani</h1>
+    </div>
+    <div class="nav-menu col-2">
+        <a href="#">Home</a>
+        <a href="#">Tutorial</a>
+        <a href="#">Contact</a>
+    </div>
+    <div class="main col-7">
+        <h1>I am a web designer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia commodi aperiam exercitationem, assumenda corporis veritatis quas amet impedit tempora dignissimos provident dolores illum eaque, voluptate totam placeat, magni atque voluptatem!
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, maxime obcaecati optio sapiente iure harum non inventore ex expedita odit ea officiis necessitatibus omnis eius corporis cupiditate, repellendus veritatis quia quidem dolore minima et? Ipsam, in deleniti dicta culpa quae id ducimus enim, possimus quam aliquid cum eum est tenetur nostrum illo commodi labore dolor! Aut omnis commodi iste molestias repudiandae, quas harum possimus incidunt nulla vero maxime, quasi veritatis dicta rem mollitia ut magnam. Architecto tenetur dolore sequi, placeat reiciendis possimus facere, veritatis accusamus in, fuga aliquid? Dolores, sint ex? Culpa cupiditate earum ipsum repellendus fugit autem ea blanditiis!
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt est repellendus ut totam et nihil, animi repellat autem quasi dicta.
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit consectetur assumenda, sapiente ex omnis reiciendis nam. Nisi rerum voluptates velit mollitia, odit eos laboriosam quos vel voluptatibus doloribus? Hic deserunt perferendis consequuntur fugiat autem at alias, dolores doloribus maiores ipsa officiis perspiciatis molestias magni voluptas neque, nobis saepe aspernatur nisi repellat est tempore rem suscipit porro. Accusamus repellat earum amet dolorem vitae! Laudantium voluptatem assumenda aut, perspiciatis unde consequuntur omnis. Veniam iure id blanditiis, earum, aspernatur ullam corrupti aliquid in modi quam quisquam. Fuga error qui soluta, est eius adipisci expedita. Eius, iure libero quod nemo consequuntur similique accusantium beatae corporis nam sunt magnam suscipit, tempora incidunt nulla doloribus sapiente molestias quibusdam. Explicabo possimus esse tempora itaque odio, at similique sed ex nulla beatae. Error vitae cum alias numquam labore obcaecati nesciunt, impedit nihil dignissimos veniam molestias, deserunt explicabo! Perspiciatis quidem harum quam laboriosam dolorum repellendus quis aut quo temporibus, facere itaque tenetur officiis voluptatem, accusantium quibusdam deleniti rem rerum voluptates, soluta tempora. A itaque necessitatibus vitae qui voluptatum id porro repudiandae, sapiente iste suscipit nisi illum! Saepe non illum porro officia minus quo beatae itaque possimus commodi corporis, minima ducimus est accusantium voluptas? Totam quos illum incidunt ducimus expedita!
+            </div>
+        <div class="aside col-3">
+             <h2>What i love?</h2>
+             <p>justo Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quibusdam harum sit incidunt voluptatem quaerat non, odit natus consectetur quisquam est facere magnam? Ipsam repudiandae illo placeat adipisci vel est quod suscipit magnam labore explicabo molestiae minus saepe reiciendis, 
+            <h2>What i do?</h2>
+            <p>justo Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quibusdam harum sit incidunt voluptatem quaerat non, odit natus consectetur quisquam est facere magnam? Ipsam repudiandae illo placeat adipisci vel est quod suscipit magnam labore explicabo molestiae minus saepe reiciendis,? Non, perspiciatis.
+
+            <h2>What i don't love?</h2>
+            <p>justo Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quibusdam harum sit incidunt voluptatem quaerat non, odit natus consectetur quisquam est facere magnam? Ipsam repudiandae illo placeat adipisci vel est quod suscipit magnam labore explicabo molestiae minus saepe reiciendis, f
+            <h2>What i don't do?</h2>
+            <div>justo Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quibusdam harum sit incidunt voluptatem quaerat non, odit natus consectetur quisquam est facere magnam? Ipsam repudiandae illo placeat adipisci vel est quod suscipit magnam labore explicabo molestiae minus saepe reiciendis, fugit nulla nostrum expedita quia incidunt dolores iure cupiditate? Non, perspiciatis.
+
+            </div>
+    </div>
+    <p>.</p>
+    
+   <div class="footer">
+        &copy; Web-design.Developed by Tresna Rani
+        </div>
+
+
+
+</body>
+</html>

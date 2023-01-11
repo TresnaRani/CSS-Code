@@ -1,0 +1,37 @@
+<html>
+<head>
+	<title>Hover</title>
+	<style>
+
+	table tr,td{
+		background-color:yellow;
+		border: 3px;
+	}
+
+	</style>
+</head>
+<body>
+	
+		<table>
+			<tr>
+				<td>Name</td>
+				<td>Age</td>
+			</tr>
+			<tr>
+				<td>tresna</td>
+				<td>22</td>
+			</tr>
+		
+		<tr>
+				<td>robi</td>
+				<td>22</td>
+			</tr>
+		
+		
+		
+		</table>
+		
+	  
+</body>
+
+</html>

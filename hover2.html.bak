@@ -1,0 +1,25 @@
+<html>
+<head>
+	<title>changes hover</title>
+	<style>
+	
+		.para p:nth-child(odd){
+		
+			background-color:coral;
+			color:aqua;
+		
+			
+	}
+	
+	</style>
+	
+</head>
+<body>
+	<div class="para">
+	<p>Bangladesh is a specefull country.In this country has a big river,flower,fruits,birds and many people.</p>
+	<p>There are a large amount of people.</p>
+	<p>There are a large amount of people.</p>
+	</div>
+</body>
+
+</html>
