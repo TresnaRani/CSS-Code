@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From Styling</title>
+    <style>
+        input[type=text]{
+            width: 100%;
+            padding: 10px 20px;
+            margin: 20px 0;
+            font-size: 1rem;
+            box-sizing: border-box;
+            background-color: coral;
+            border: 3px solid salmon;
+            border-radius: 5px;
+          
+        }
+        #search{
+           background-image: url("iamges/index.png");
+           background-repeat: no-repeat;
+           background-size:3%;
+           background-position: 10px 10px;
+           font-size: 1rem;
+           padding:20px 60px ;
+
+           width: 200px;
+           transition: width 0.3s ease-in-out;
+        }
+        #search:focus{
+            background-color: olivedrab;
+            width: 100%;
+        }
+        </style>
+</head>
+<body>
+    <form action="">
+
+        <input type="text" name="search"  id="search" placeholder="search" >
+
+
+        <p></p>
+        <label for="fname">First name</label>
+        <input type="text" name="fname"  id="fname" >
+
+        <label for="lname">Last name</label>
+        <input type="text" name="lname"  id="lname" >
+</body>
+</html>

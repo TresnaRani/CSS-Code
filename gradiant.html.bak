@@ -1,0 +1,14 @@
+<html>
+
+<head>
+		<title>Gradiant Style</title>
+		<link  rel="stylesheet" href="gradiant.css" />
+	
+</head>
+<body>
+	<div class="gradiant">
+	</div>
+</body>
+
+
+</html>
